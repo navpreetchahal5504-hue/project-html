@@ -19,6 +19,37 @@
       <legend>Pizza Details</legend>
       <!-- pizza form content will go here -->
     </fieldset>
+    <label for="pizzaCount">Number of Pizzas:</label>
+<input type="number" id="pizzaCount" name="pizzaCount" min="1" required>
+
+<label for="size">Choose a Size:</label>
+<select id="size" name="size">
+  <option value="small">Small (8")</option>
+  <option value="medium">Medium (12")</option>
+  <option value="large">Large (16")</option>
+</select>
+
+<p>Shape:</p>
+<input type="radio" id="round" name="shape" value="round" checked>
+<label for="round">Round</label>
+<input type="radio" id="square" name="shape" value="square">
+<label for="square">Square</label>
+
+<p>Toppings:</p>
+<input type="checkbox" id="cheese" name="toppings" value="cheese">
+<label for="cheese">Extra Cheese</label>
+<input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+<label for="pepperoni">Pepperoni</label>
+<input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+<label for="mushrooms">Mushrooms</label>
+
+<p>Crust Type:</p>
+<select id="crust" name="crust">
+  <option value="thin">Thin Crust</option>
+  <option value="deep">Deep Dish</option>
+  <option value="stuffed">Stuffed Crust</option>
+</select>
+
   </form>
 </main>
 
